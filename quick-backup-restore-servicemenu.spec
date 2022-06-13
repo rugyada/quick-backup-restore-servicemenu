@@ -30,7 +30,8 @@ mkdir %buildroot%_bindir
 mkdir %buildroot%_datadir
 mkdir %buildroot%_datadir/kservices5/
 mkdir %buildroot%_datadir/kservices5/ServiceMenus
-install -Dm 755 %buildroot%_datadir/kservices5/ServiceMenus/*desktop
+install -Dm 755 bak.desktop %buildroot%_datadir/kservices5/ServiceMenus/bak.desktop
+install -Dm 755 bak-restore.desktop %buildroot%_datadir/kservices5/ServiceMenus/bak-restore.desktop
 
 %clean
 rm -rf %{buildroot}
