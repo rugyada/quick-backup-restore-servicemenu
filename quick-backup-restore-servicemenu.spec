@@ -30,7 +30,7 @@ mkdir %buildroot%_bindir
 mkdir %buildroot%_datadir
 mkdir %buildroot%_datadir/kservices5/
 mkdir %buildroot%_datadir/kservices5/ServiceMenus
-install -Dm 755 dolphin-KDE4/*desktop %buildroot%_datadir/kservices5/ServiceMenus/
+install -Dm 755 %buildroot%_datadir/kservices5/ServiceMenus/*desktop
 
 %clean
 rm -rf %{buildroot}
