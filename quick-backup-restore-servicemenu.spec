@@ -9,7 +9,7 @@ License: Creative Commons Attribution
 Group: Graphical desktop/KDE
 Summary: Create a backup copy for Dolphin context menu
 Url: https://store.kde.org/p/1172758
-Source:%{name}_%version.tar.gz
+Source:%{name}-%version.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 
