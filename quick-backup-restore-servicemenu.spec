@@ -19,7 +19,7 @@ selected files in the same folder, adding a .bak extension,
 and to restore them.
 
 %prep
-%setup -n %{name}_%version
+%setup -n %{name}-%version
 
 %install
 rm -rf %{buildroot}
